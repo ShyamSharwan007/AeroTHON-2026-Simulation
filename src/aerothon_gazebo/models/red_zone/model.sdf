@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="red_zone">
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry><plane><normal>0 0 1</normal><size>5 5</size></plane></geometry>
+        <material>
+          <ambient>1 0 0 1</ambient> <diffuse>1 0 0 1</diffuse>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

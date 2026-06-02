@@ -1,0 +1,11 @@
+material AeroTHON/DecoyQR1
+{
+  technique {
+    pass {
+      texture_unit {
+        texture decoy_1.png
+        scale 1 1
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="start_qr_target">
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>1 1</size>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://qr_code/materials/scripts</uri>
+            <uri>model://qr_code/materials/textures</uri>
+            <name>AeroTHON/StartQR</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

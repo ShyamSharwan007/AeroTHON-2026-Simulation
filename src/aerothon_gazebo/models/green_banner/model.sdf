@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="green_banner">
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry><box><size>2 0.1 1</size></box></geometry>
+        <material>
+          <ambient>0 1 0 1</ambient> <diffuse>0 1 0 1</diffuse>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

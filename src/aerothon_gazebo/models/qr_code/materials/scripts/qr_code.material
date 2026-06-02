@@ -1,0 +1,14 @@
+material AeroTHON/StartQR
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture start_qr.png
+        scale 1 1
+      }
+    }
+  }
+}

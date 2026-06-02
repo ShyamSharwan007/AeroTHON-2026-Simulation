@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="aerothon_world">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://qr_code</uri>
+      <name>start_qr</name>
+      <pose>0 0 0.01 0 0 0</pose> 
+    </include>
+
+    <include>
+      <uri>model://red_zone</uri>
+      <pose>10 -5 0.01 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://green_banner</uri>
+      <pose>10 0 0.5 0 0 0</pose>
+    </include>
+
+  </world>
+</sdf>

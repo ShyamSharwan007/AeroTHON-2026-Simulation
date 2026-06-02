@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="decoy_qr_1">
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry><plane><normal>0 0 1</normal><size>1.5 1.5</size></plane></geometry>
+        <material><script>
+          <uri>model://decoy_qr_1/materials/scripts</uri>
+          <uri>model://qr_code/materials/textures</uri>
+          <name>AeroTHON/DecoyQR1</name>
+        </script></material>
+      </visual>
+    </link>
+  </model>
+</sdf>
